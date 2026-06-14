@@ -12,7 +12,7 @@ import TipWidget from '@/components/TipWidget';
 import ReceiveTipCard from '@/components/ReceiveTipCard';
 
 // TODO: replace with your own wallet address (the one that should receive tips)
-const CREATOR_ADDRESS = '0x0000000000000000000000000000000000dEaD' as const;
+const CREATOR_ADDRESS = '0xaCe7CFf689E6E726434b2F6E1fD4b7D5F5c75c7d' as const;
 
 export default function Home() {
   const { address, isConnected } = useAccount();
